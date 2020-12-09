@@ -1,0 +1,23 @@
+{
+    "name": "flutter_todo_demo",
+    "short_name": "flutter_todo_demo",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#0175C2",
+    "theme_color": "#0175C2",
+    "description": "简易版TODO APP，目的在于测试Flutter框架下数据存储方案选型。Android/iOS平台数据存储使用sqflite，WEB端使用NoSQL型数据库框架Sembast。",
+    "orientation": "portrait-primary",
+    "prefer_related_applications": false,
+    "icons": [
+        {
+            "src": "icons/Icon-192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "icons/Icon-512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+name: flutter_todo_demo
+description: 简易版TODO APP，目的在于测试Flutter框架下数据存储方案选型。Android/iOS平台数据存储使用sqflite，WEB端使用NoSQL型数据库框架Sembast。
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.0
+  sqflite: 1.3.0
+  path: any
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  uses-material-design: true
